@@ -1,0 +1,5 @@
+{
+    "llama3.1-8b": "../models/llama3.1-8b/llama3.1-8b",
+    "mamba": "../models/mamba",
+    "phi-3.5-mini": "../models/Phi-3.5-mini/Phi-3.5-mini"
+}
