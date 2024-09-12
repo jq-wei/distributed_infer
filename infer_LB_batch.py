@@ -64,7 +64,8 @@ print(f"accelerator test: {accelerator.process_index}")
 tokenizer = AutoTokenizer.from_pretrained(model_path)   
 tokenizer.pad_token = tokenizer.eos_token
 
-
+print(model)
+sys.exit()
 
 # sync GPUs and start the timer
 accelerator.wait_for_everyone()    
