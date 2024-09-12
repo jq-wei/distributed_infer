@@ -13,6 +13,12 @@ import sys
 from utils.utils import prepare_prompts, seed_everything, get_longbench_prompt
 
 
+### some parameters set by user
+batch_size = 128
+max_new_tokens = 100
+copy_of_prompt = 100
+model_path = "../models/Phi-3.5-mini/Phi-3.5-mini" # "../models/llama3.1-8b/llama3.1-8b"
+
 
 use_longbench_prompt = False
 if use_longbench_prompt:
@@ -42,7 +48,7 @@ else:
         "As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a gigantic insect.",
         "I write this sitting in the kitchen sink.",
         "We were somewhere around Barstow on the edge of the desert when the drugs began to take hold.",
-    ] * 100
+    ] * copy_of_prompt
 
 
 #sys.exit()
@@ -50,7 +56,6 @@ else:
 accelerator = Accelerator()
 
 # load a base model and tokenizer
-model_path = "../models/llama3.1-8b/llama3.1-8b"
 model = AutoModelForCausalLM.from_pretrained(
     model_path,    
     device_map={"": accelerator.process_index}
@@ -70,10 +75,10 @@ with accelerator.split_between_processes(prompts_all) as prompts:
     results=dict(outputs=[], num_tokens=0)
 
     # have each GPU do inference in batches
-    prompt_batches=prepare_prompts(prompts, tokenizer, batch_size=16)
+    prompt_batches=prepare_prompts(prompts, tokenizer, batch_size=batch_size)
 
     for prompts_tokenized in prompt_batches:
-        outputs_tokenized=model.generate(**prompts_tokenized, max_new_tokens=100)
+        outputs_tokenized=model.generate(**prompts_tokenized, max_new_tokens=max_new_tokens)
 
         # remove prompt from gen. tokens
         outputs_tokenized=[ tok_out[len(tok_in):] 
