@@ -14,10 +14,10 @@ from utils.utils import prepare_prompts, seed_everything, get_longbench_prompt
 
 
 ### some parameters set by user
-batch_size = 128
+batch_size = 512
 max_new_tokens = 100
 copy_of_prompt = 100
-model_path = "../models/Phi-3.5-mini/Phi-3.5-mini" # "../models/llama3.1-8b/llama3.1-8b"
+model_path = "../models/llama3.1-8b/llama3.1-8b" #"../models/Phi-3.5-mini/Phi-3.5-mini" 
 
 
 use_longbench_prompt = False
@@ -58,14 +58,15 @@ accelerator = Accelerator()
 # load a base model and tokenizer
 model = AutoModelForCausalLM.from_pretrained(
     model_path,    
-    device_map={"": accelerator.process_index}
+    device_map={"": accelerator.process_index}, 
+    torch_dtype=torch.float16
 )
 print(f"accelerator test: {accelerator.process_index}")
 tokenizer = AutoTokenizer.from_pretrained(model_path)   
 tokenizer.pad_token = tokenizer.eos_token
 
-print(model)
-sys.exit()
+#print(model)
+#sys.exit()
 
 # sync GPUs and start the timer
 accelerator.wait_for_everyone()    
