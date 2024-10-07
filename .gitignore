@@ -1,0 +1,6 @@
+samples/
+samples_archive/
+cache_data/
+*.pth
+*.zip
+build/

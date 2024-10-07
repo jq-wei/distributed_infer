@@ -1,0 +1,86 @@
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModel'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForPreTraining'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto._AutoModelWithLMHead'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForCausalLM'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForMaskedLM'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForSeq2SeqLM'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForSequenceClassification'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForQuestionAnswering'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForTableQuestionAnswering'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForVisualQuestionAnswering'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForDocumentQuestionAnswering'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForTokenClassification'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForMultipleChoice'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForNextSentencePrediction'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForImageClassification'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForZeroShotImageClassification'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForImageSegmentation'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForSemanticSegmentation'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForUniversalSegmentation'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForInstanceSegmentation'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForObjectDetection'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForZeroShotObjectDetection'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForDepthEstimation'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForVideoClassification'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForVision2Seq'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForAudioClassification'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForCTC'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForSpeechSeq2Seq'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForAudioFrameClassification'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForAudioXVector'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForMaskedImageModeling'>
+[2024-09-17 10:04:02,561] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModel'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForPreTraining'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto._AutoModelWithLMHead'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForCausalLM'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForMaskedLM'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForSeq2SeqLM'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForSequenceClassification'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForQuestionAnswering'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForTableQuestionAnswering'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForVisualQuestionAnswering'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForDocumentQuestionAnswering'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForTokenClassification'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForMultipleChoice'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForNextSentencePrediction'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForImageClassification'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForZeroShotImageClassification'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForImageSegmentation'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForSemanticSegmentation'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForUniversalSegmentation'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForInstanceSegmentation'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForObjectDetection'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForZeroShotObjectDetection'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForDepthEstimation'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForVideoClassification'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForVision2Seq'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForAudioClassification'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForCTC'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForSpeechSeq2Seq'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForAudioFrameClassification'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForAudioXVector'>
+auto_class_update: <class 'transformers.models.auto.modeling_auto.AutoModelForMaskedImageModeling'>
+Prompt 1: Once upon a time 
+[2024-09-17 10:04:06,578] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m NVIDIA Inference is only supported on Ampere and newer architectures
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.4
+[93m [WARNING] [0m using untested triton version (3.0.0), only 1.0.0 is known to be compatible
+[2024-09-17 10:04:07,923] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-09-17 10:04:07,924] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+proc: 0
+accelerator test: 0
+Jay test: ['\xa0there']
+Generated text 1:  there
+tokens/sec: 5.0, time elapsed: 0.39209628105163574, num_tokens 2
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m NVIDIA Inference is only supported on Ampere and newer architectures
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.4
+[93m [WARNING] [0m using untested triton version (3.0.0), only 1.0.0 is known to be compatible
